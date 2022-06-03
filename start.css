@@ -1,0 +1,44 @@
+body {
+  background-color: #9792e3;
+  font-family: "Dosis", sans-serif;
+}
+.button-normal {
+  cursor: pointer;
+  color: antiquewhite;
+  font-style: italic;
+  font-size: large;
+  height: 100px;
+  width: 200px;
+  margin-top: 200px;
+  background-color: #48435c;
+}
+.main {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.heading {
+
+  color: #61e786;
+  font-stretch: extra-expanded;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.button-hacker {
+  cursor: pointer;
+  color: antiquewhite;
+  font-style: italic;
+  font-size: large;
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+  background-color: #48435c;
+}
+.button-normal:hover {
+  background: #5a5766;
+}
+.button-hacker:hover {
+  background: #5a5766;
+}
